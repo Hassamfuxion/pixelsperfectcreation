@@ -29,31 +29,32 @@ function initBannerVideo() {
     var player;
 
     var $tag = $('<script>', { src: "https://www.youtube.com/iframe_api" });
-    $('script').first().before($tag);
+$('script').first().before($tag);
 
-    window.onYouTubeIframeAPIReady = function() {
-        player = new YT.Player('banner-video-background', {
-            videoId: 'P68V3iH4TeE',
-            playerVars: {
-                'autoplay': 1,
-                'controls': 0,
-                'mute': 1,
-                'loop': 1,
-                'playlist': 'P68V3iH4TeE',
-                'showinfo': 0,
-                'rel': 0,
-                'enablejsapi': 1,
-                'disablekb': 1,
-                'modestbranding': 1,
-                'iv_load_policy': 3,
-                'origin': window.location.origin
-            },
-            events: {
-                'onReady': onPlayerReady,
-                'onStateChange': onPlayerStateChange
-            }
-        });
-    };
+window.onYouTubeIframeAPIReady = function() {
+    player = new YT.Player('banner-video-background', {
+        videoId: 'H41fuhz_gvw', // New Video ID
+        playerVars: {
+            'autoplay': 1,
+            'controls': 0,
+            'mute': 1,
+            'loop': 1,
+            'playlist': 'H41fuhz_gvw', // New Video ID for looping
+            'showinfo': 0,
+            'rel': 0,
+            'enablejsapi': 1,
+            'disablekb': 1,
+            'modestbranding': 1,
+            'iv_load_policy': 3,
+            'origin': window.location.origin
+        },
+        events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+    });
+};
+
 
     function onPlayerReady(event) {
         event.target.playVideo();
