@@ -2509,21 +2509,21 @@ body.lightmode .case-studies-content::before{
 }
 
 .case-studies-content.local-business{
-    background-image: url('../image/dummy-img-600x400.jpg');
+    background-image: url('../image/local business.jpg');
     width: 56.2%;
 }
 
 .case-studies-content.saas-leads{
-    background-image: url('../image/dummy-img-600x400.jpg');
+    background-image: url('../image/saas.jpg');
     width: 42%;
 }
 
 .case-studies-content.ecommerce{
-    background-image: url('../image/dummy-img-600x400.jpg');
+    background-image: url('../image/e-commerce.jpg');
     width: 42%;
 }
 .case-studies-content.startup-branding{
-    background-image: url('../image/dummy-img-600x400.jpg');
+    background-image: url('../image/content.jpg');
     width: 56.2%;
 }
 
@@ -3055,7 +3055,7 @@ body.lightmode .case-studies-content::before{
 /* ================== 35. Guide Components ================== */
 
 .guide-banner{
-    background-image: url('../image/dummy-img-1920x900.jpg');
+    background-image: url('../image/banner.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
