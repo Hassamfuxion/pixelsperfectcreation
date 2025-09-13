@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Recipient email
-    $to = "pixelsperfectcreation@gmail.com";
+    $to = "hassamazam999@gmail.com";
 
     // Email subject
     $email_subject = "Contact Form: " . $subject;
